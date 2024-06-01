@@ -1,0 +1,21 @@
+body{
+    background-color: #ccc;
+   /* background-image: url(https://imgs.search.brave.com/kQSnQL-XEBpfSaW6axyOF5t7uAb6NNNYUXFUqpBxlVc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzAwLzYz/LzJkLzAwNjMyZGIz/YTgzNzdiNTRkZmU1/MDVhYzhmY2E2ZDll/LmpwZw);
+    background-attachment: fixed;/*hace que la imagen no se mueva cuando hay mucho texto con el scroll 
+      background-size: 100% 100%;*/
+      text-indent: 15px;
+      /*word-spacing: 10px;
+      letter-spacing: 5px;*/
+}
+#caja{
+    border: 5px  solid black;
+    padding: 4px;
+    background-color: rgb(238, 170, 81);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+   /* line-height: 50px;*//*este es para cuando hagas un espacion con un br en un texto y este quedaria abajo por el br entonces el line hace que le pongas el tamaño de la distancia entre cada texto*/
+    text-transform: uppercase;
+    text-decoration: overline;
+    vertical-align: top;
+}

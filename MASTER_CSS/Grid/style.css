@@ -1,0 +1,33 @@
+.container{
+    background-color: lightsalmon;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: grid;
+    /* grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, 100px);
+    grid-auto-rows: 50px; */
+    /* grid-template-columns: minmax(100px,1fr) 1fr 1fr;  como minimo siempre la primera columna tendra 100px cuando ese sobrepase los 100 sera como si fuera una fraccion y cuando baja de 100 este se quedara en 100px*/
+    
+    grid-auto-rows: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    height: 300px;
+}
+.container div{
+    background-color: lightblue;
+    border: 2px solid #09f;
+    border-radius: 6px;
+}
+
+body{
+background-color: #ddd;
+
+}
+.container div:first-child{
+    background-color: lightgreen;
+    border: 2px solid green;
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+}

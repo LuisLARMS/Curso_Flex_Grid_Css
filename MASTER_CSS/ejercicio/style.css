@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+
+}
+#contenedor-principal{
+    width: 1200px;
+    border: 1px solid #ccc;
+    margin: 0px auto;
+    margin-top: 20px;
+
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(96, 96, 197);
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+#menu{
+   background-color: #eee; 
+}
+#menu ul li{
+display: inline-block;
+
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.fija{
+    position: fixed;
+    top: 50%;
+    left: 0px;
+}

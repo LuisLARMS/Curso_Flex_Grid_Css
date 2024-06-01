@@ -1,0 +1,30 @@
+@font-face {
+    font-family: jacquard_12;
+    src: url(fonts/Jacquard_12/Jacquard12-Regular.ttf);
+}
+body{
+    
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*colores del sistema */
+color: mediumpurple;
+/*colores hexadecimales*/
+color: #eee;
+/*colores RGB*/
+color: rgb(red, green, blue);
+color: rgb(red, green, blue, 0.5);
+}
+h3{
+    font-family: jacquard_12;
+    font-size: 25px;
+    font-weight: lighter;
+    color: olive;
+}
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
